@@ -1,0 +1,168 @@
+/* Reset some default styles for better consistency */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1400px;
+  font-family: Arial, sans-serif;
+  color: #000; /* Black text color */
+  background-color: #fff; /* White background color */
+}
+
+/* Styling the navigation menu */
+nav {
+  background-color: #3886bd; /* Secondary color for the navigation background */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff; /* White text color for links */
+  text-decoration: none;
+}
+
+/* Styling the header section */
+header {
+  background-color: #3886bd; /* Secondary color for the header background */
+  padding: 40px;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff; /* White text color for the header titles */
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  color: #fff; /* White text color for the header subtitles */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main {
+  padding: 50px 0;
+}
+
+main section {
+  margin-bottom: 40px;
+}
+
+main h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Styling the footer section */
+footer {
+  background-color: #3886bd; /* Secondary color for the footer background */
+  color: #fff; /* White text color for the footer */
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff; /* White text color for footer links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Styling the form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #3886bd; /* Secondary color for form fields border */
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #3886bd; /* Secondary color for the form button background */
+  color: #fff; /* White text color for the form button */
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #a0ffcc; /* Slightly lighter shade for button on hover */
+}
+
+.card-layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100%;
+  padding: 10px;
+}
+
+@media (min-width: 576px) {
+  .card {
+    width: 30%;
+  }
+}
+
+.card-bg-grey {
+  border-radius: 20px;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 150px;
+  background-color: #3886bd;
+  opacity: 0.5;
+}
+
+/* CSS for responsive design on small devices */
+@media (max-width: 575px) {
+  .card {
+    width: 100%;
+  }
+}
