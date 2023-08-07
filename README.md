@@ -36,3 +36,7 @@ Ce consider eu ca este mult mai important decat continutul este modul in care st
 ### Ca inspiratie
 
 Avem un site destul de basic, cu un stil dragut si cateva sectiuni de continut si imagini. Inspira-te de aici folosind Github pentru codebase, DevTools pentru stilizare si posibilele schimbari pe care le-ai face.
+
+##### Bonus
+
+Rescrie-ti codul folosind CSS vars pentru o mai buna scalabilitate in cazul in care ai in vedere o schimbare a paletei de culori. Ramane la alegerea ta ce vrei sa "variabilizezi"
