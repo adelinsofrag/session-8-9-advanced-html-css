@@ -20,13 +20,13 @@ body {
   margin: auto;
   max-width: 1400px;
   font-family: Arial, sans-serif;
-  color: #000; /* Black text color */
-  background-color: #fff; /* White background color */
+  color: #000;
+  background-color: #fff;
 }
 
 /* Styling the navigation menu */
 nav {
-  background-color: #3886bd; /* Secondary color for the navigation background */
+  background-color: #3886bd;
   padding: 10px;
 }
 
@@ -41,26 +41,25 @@ nav li {
 }
 
 nav a {
-  color: #fff; /* White text color for links */
+  color: #fff;
   text-decoration: none;
 }
 
-/* Styling the header section */
 header {
-  background-color: #3886bd; /* Secondary color for the header background */
+  background-color: #3886bd;
   padding: 40px;
   text-align: center;
 }
 
 header h1 {
-  color: #fff; /* White text color for the header titles */
+  color: #fff;
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 header h2 {
-  color: #fff; /* White text color for the header subtitles */
+  color: #fff;
   font-size: 24px;
   font-weight: bold;
 }
@@ -92,14 +91,14 @@ main p {
 
 /* Styling the footer section */
 footer {
-  background-color: #3886bd; /* Secondary color for the footer background */
-  color: #fff; /* White text color for the footer */
+  background-color: #3886bd;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
 
 footer a {
-  color: #fff; /* White text color for footer links */
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -119,20 +118,20 @@ form input,
 form textarea {
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #3886bd; /* Secondary color for form fields border */
+  border: 1px solid #3886bd;
 }
 
 form button {
   padding: 10px 20px;
-  background-color: #3886bd; /* Secondary color for the form button background */
-  color: #fff; /* White text color for the form button */
+  background-color: #3886bd;
+  color: #fff;
   border: none;
   cursor: pointer;
   font-weight: bold;
 }
 
 form button:hover {
-  background-color: #a0ffcc; /* Slightly lighter shade for button on hover */
+  background-color: #a0ffcc;
 }
 
 .card-layout {
